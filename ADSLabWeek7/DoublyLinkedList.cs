@@ -44,7 +44,7 @@ public class DoublyLinkedList
 	public void remove (Node n) {
 		//if the head to be deleted
 		if (head.data == n.data) {
-			head = head.next; //get the next of the head becomes as head
+			head = head.next; //get the next of the head or the n becomes as head
 			head.previous = null;
 			length--;
 		}
